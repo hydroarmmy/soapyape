@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SoapyApe — Play. Create. Explore.</title>
+  <meta name="description" content="SoapyApe: indie game studio. Games, pixel art assets, online mini-games and mobile apps.">
+  <link rel="icon" type="image/png" href="assets/ui/logo-monkey.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+<header class="topbar">
+  <a class="brand" href="/" aria-label="SoapyApe home">
+    <img class="monkey" src="assets/ui/logo-monkey.png" alt="">
+    <img class="wordmark" src="assets/ui/logo-text.png" alt="SoapyApe">
+  </a>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+  <label for="menu-toggle" class="burger" aria-hidden="true">☰</label>
+  <nav class="nav" aria-label="Main">
+    <a class="active" href="/">Home</a>
+    <a href="/games/"><img src="assets/ui/icon-games.png" alt="">Games</a>
+    <a href="/assets/"><img src="assets/ui/icon-assets.png" alt="">Assets</a>
+    <a href="/play/"><img src="assets/ui/icon-play.png" alt="">Play Online</a>
+    <a href="/apps/"><img src="assets/ui/icon-mobile.png" alt="">Mobile Apps</a>
+  </nav>
+  <div class="tools">
+    <form class="search" role="search" onsubmit="return false"><input type="search" placeholder="" aria-label="Search"></form>
+    <a href="#" aria-label="Discord"><img src="assets/ui/icon-discord.png" alt="Discord"></a>
+    <a href="#" aria-label="YouTube"><img src="assets/ui/icon-youtube.png" alt="YouTube"></a>
+    <a href="#" aria-label="itch.io"><img src="assets/ui/icon-itch.png" alt="itch.io"></a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-bg strip" aria-hidden="true"><i class="l"></i><i class="c"></i><i class="r"></i></div>
+    <h1 class="sr-only">SoapyApe — Play. Create. Explore.</h1>
+    <div class="bubbles" aria-hidden="true">
+      <img src="assets/ui/bubble.png" alt="" style="--x:-34%;--d:0s;--t:9s;--w:40px;--dx:10px">
+      <img src="assets/ui/bubble.png" alt="" style="--x:-18%;--d:2.5s;--t:11s;--w:32px;--dx:-8px">
+      <img src="assets/ui/bubble.png" alt="" style="--x:-4%;--d:5s;--t:8s;--w:64px;--dx:12px">
+      <img src="assets/ui/bubble.png" alt="" style="--x:10%;--d:1.2s;--t:10s;--w:40px;--dx:-10px">
+      <img src="assets/ui/bubble.png" alt="" style="--x:22%;--d:6s;--t:12s;--w:48px;--dx:8px">
+      <img src="assets/ui/bubble.png" alt="" style="--x:34%;--d:3.6s;--t:9s;--w:32px;--dx:-6px">
+      <img src="assets/ui/bubble.png" alt="" style="--x:2%;--d:8.5s;--t:13s;--w:56px;--dx:-12px">
+    </div>
+    <img class="hero-logo" src="assets/ui/logo-big.png" alt="SoapyApe">
+    <div class="edge strip" aria-hidden="true"><i class="l"></i><i class="c"></i><i class="r"></i></div>
+  </section>
+
+  <section class="cards" aria-label="Featured">
+    <article class="card">
+      <h2>Top Game Online</h2>
+      <div class="thumb"></div>
+      <p class="title">&nbsp;</p>
+      <a class="btn" href="/play/">Play</a>
+    </article>
+
+    <article class="card">
+      <h2>Top Assets</h2>
+      <div class="thumb"><!-- <img src="assets/thumbs/cozy-farm.png" alt="Cozy Farm Fantasy"> --></div>
+      <p class="title">Cozy Farm Fantasy</p>
+      <a class="btn" href="/assets/">Get</a>
+    </article>
+
+    <article class="card">
+      <h2>Top Apps</h2>
+      <div class="thumb"></div>
+      <p class="title">&nbsp;</p>
+      <a class="btn" href="/apps/">View</a>
+    </article>
+
+    <article class="card">
+      <h2>Top Game Mobile</h2>
+      <div class="thumb"></div>
+      <p class="title">&nbsp;</p>
+      <!-- TODO: replace # with your Google Play URL -->
+      <a class="btn" href="#">Google Play</a>
+    </article>
+
+    <article class="card">
+      <h2>Special Product</h2>
+      <div class="thumb"></div>
+      <p class="title">Coming soon</p>
+      <span class="btn disabled">Soon..</span>
+    </article>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="f-bg strip" aria-hidden="true"><i class="l"></i><i class="c"></i><i class="r"></i></div>
+  <div class="f-bar">
+    <a class="brand" href="/" aria-label="SoapyApe home">
+      <img class="monkey" src="assets/ui/logo-monkey.png" alt="" style="width:calc(36px*var(--s))">
+      <img class="wordmark" src="assets/ui/logo-text.png" alt="SoapyApe" style="width:calc(70px*var(--s))">
+    </a>
+    <div class="f-links">
+      <a href="/privacy/"><img src="assets/ui/icon-privacy.png" alt="">Privacy Policy</a>
+      <a href="mailto:hello@soapyape.com"><img src="assets/ui/icon-mail.png" alt="">Contact</a>
+      <a class="up" href="#top" aria-label="Back to top"><img src="assets/ui/btn-up.png" alt=""></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
