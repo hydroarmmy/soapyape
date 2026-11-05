@@ -94,17 +94,27 @@
 <footer class="footer">
   <div class="f-bg strip" aria-hidden="true"><i class="l"></i><i class="c"></i><i class="r"></i></div>
   <div class="f-bar">
-    <a class="brand" href="/" aria-label="SoapyApe home">
-      <img class="monkey" src="assets/ui/logo-monkey.png" alt="" style="width:calc(36px*var(--s))">
-      <img class="wordmark" src="assets/ui/logo-text.png" alt="SoapyApe" style="width:calc(70px*var(--s))">
-    </a>
     <div class="f-links">
       <a href="/privacy/"><img src="assets/ui/icon-privacy.png" alt="">Privacy Policy</a>
       <a href="mailto:hello@soapyape.com"><img src="assets/ui/icon-mail.png" alt="">Contact</a>
-      <a class="up" href="#top" aria-label="Back to top"><img src="assets/ui/btn-up.png" alt=""></a>
     </div>
   </div>
 </footer>
+
+<a id="to-top-float" class="to-top-float" href="#top" aria-label="Back to top" hidden><img src="assets/ui/btn-top-float.png" alt=""></a>
+
+<script>
+(function(){
+  var btn=document.getElementById('to-top-float'), hero=document.querySelector('.hero');
+  if(!btn||!hero) return;
+  btn.hidden=false;
+  function update(){ var max=document.documentElement.scrollHeight-window.innerHeight;
+    btn.classList.toggle('show', max>40 && window.scrollY > Math.min(hero.offsetTop+hero.offsetHeight, window.innerHeight*0.6, max*0.6)); }
+  window.addEventListener('scroll',update,{passive:true});
+  window.addEventListener('resize',update);
+  update();
+})();
+</script>
 
 </body>
 </html>
