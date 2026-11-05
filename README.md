@@ -27,4 +27,4 @@ Build command: empty · Output directory: `/` · add custom domain `soapyape.com
 - Real Google Play URL in the "Top Game Mobile" card (`index.html`, search for TODO)
 - Social links (Discord / YouTube / itch.io)
 - Card thumbnails (`.thumb`, e.g. `assets/thumbs/cozy-farm.png`)
-- Pages: /games, /assets, /play, /apps, /privacy
+- Pages: /games, /assets, /play, /apps  (/privacy done)
