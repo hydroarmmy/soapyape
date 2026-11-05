@@ -8,8 +8,9 @@
   <link rel="icon" type="image/png" href="../assets/ui/logo-monkey.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=Noto+Sans+Thai:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/page.css">
 </head>
 <body id="top">
 
@@ -36,85 +37,93 @@
 </header>
 
 <main>
-  <section class="page-banner"><h1>Privacy Policy</h1></section>
+  <section class="hero page-hero">
+    <div class="hero-bg strip" aria-hidden="true"><i class="l"></i><i class="c"></i><i class="r"></i></div>
+    <div class="sign"><h1 data-th="นโยบายความเป็นส่วนตัว" data-en="Privacy Policy">Privacy Policy</h1><p>SoapyApe</p></div>
+    <div class="edge strip" aria-hidden="true"><i class="l"></i><i class="c"></i><i class="r"></i></div>
+  </section>
 
   <article class="doc">
-    <nav class="lang" aria-label="Language"><a href="#th">ไทย</a> · <a href="#en">English</a></nav>
+    <div class="doc-top">
+      <p class="pill">สวัสดีตามวัน · Hydrocotyle</p>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="th" aria-pressed="true">ไทย</button>
+        <button type="button" data-lang="en" aria-pressed="false">English</button>
+      </div>
+    </div>
 
-    <section id="th" lang="th">
-      <h2>นโยบายความเป็นส่วนตัว</h2>
-      <p class="meta">แอปพลิเคชัน: <strong>สวัสดีตามวัน</strong> · ผู้พัฒนา: Hydrocotyle · มีผลบังคับใช้: 9 ตุลาคม 2568</p>
-
-      <h3>1. ข้อมูลที่เก็บโดยอัตโนมัติ</h3>
-      <p>แอปใช้บริการโฆษณา Google AdMob ซึ่งอาจเก็บข้อมูลบางอย่างโดยอัตโนมัติ เช่น ข้อมูลอุปกรณ์ (รุ่นอุปกรณ์ ระบบปฏิบัติการ และรหัสโฆษณา) ข้อมูลการใช้งาน และที่อยู่ IP เพื่อใช้แสดงโฆษณาและประมาณตำแหน่งที่ตั้งโดยคร่าว</p>
-
-      <h3>2. ข้อมูลที่ผู้ใช้ให้เอง</h3>
-      <p>แอปไม่ได้ขอหรือเก็บข้อมูลที่ระบุตัวตนโดยตรง เช่น ชื่อ อีเมล หรือเบอร์โทรศัพท์</p>
-
-      <h3>3. การใช้ข้อมูล</h3>
-      <ul>
-        <li>เพื่อให้บริการและดูแลแอป</li>
-        <li>เพื่อแสดงโฆษณา</li>
-        <li>เพื่อวิเคราะห์การใช้งานและพัฒนาแอปให้ดีขึ้น</li>
+    <div id="th" class="langbox" lang="th">
+      <p class="meta">แอปพลิเคชัน <strong>สวัสดีตามวัน</strong> · ผู้พัฒนา Hydrocotyle · มีผลบังคับใช้ 9 ตุลาคม 2568</p>
+      <ul class="tldr" aria-label="สรุปสั้น ๆ">
+        <li><b>ไม่เก็บ</b>ชื่อ อีเมล หรือเบอร์โทรศัพท์</li>
+        <li>ใช้ <b>Google AdMob</b> เพื่อแสดงโฆษณา</li>
+        <li>รูปที่กด “ถูกใจ” <b>อยู่ในเครื่องคุณเท่านั้น</b></li>
       </ul>
+        <section class="sec"><h3>ข้อมูลที่เก็บโดยอัตโนมัติ</h3><p>แอปใช้บริการโฆษณา Google AdMob ซึ่งอาจเก็บข้อมูลบางอย่างโดยอัตโนมัติ เช่น ข้อมูลอุปกรณ์ (รุ่นอุปกรณ์ ระบบปฏิบัติการ และรหัสโฆษณา) ข้อมูลการใช้งาน และที่อยู่ IP เพื่อใช้แสดงโฆษณาและประมาณตำแหน่งที่ตั้งโดยคร่าว</p></section>
+        <section class="sec"><h3>ข้อมูลที่ผู้ใช้ให้เอง</h3><p>แอปไม่ได้ขอหรือเก็บข้อมูลที่ระบุตัวตนโดยตรง เช่น ชื่อ อีเมล หรือเบอร์โทรศัพท์</p></section>
+        <section class="sec"><h3>การใช้ข้อมูล</h3><ul><li>เพื่อให้บริการและดูแลแอป</li><li>เพื่อแสดงโฆษณา</li><li>เพื่อวิเคราะห์การใช้งานและพัฒนาแอปให้ดีขึ้น</li></ul></section>
+        <section class="sec"><h3>ฟีเจอร์ “สิ่งที่ฉันถูกใจ”</h3><p>ข้อมูลรูปภาพที่คุณกดถูกใจจะถูกบันทึกไว้ในอุปกรณ์ของคุณเท่านั้น ไม่ถูกส่งไปยังเซิร์ฟเวอร์ และจะถูกลบเมื่อถอนการติดตั้งแอป</p></section>
+        <section class="sec"><h3>ความปลอดภัย</h3><p>ผู้พัฒนาให้ความสำคัญกับความปลอดภัยของข้อมูล แต่ไม่สามารถรับประกันความปลอดภัยได้อย่างสมบูรณ์</p></section>
+        <section class="sec"><h3>เด็ก</h3><p>แอปไม่ได้มุ่งเป้าไปที่ผู้ที่มีอายุต่ำกว่า 13 ปี และไม่เก็บข้อมูลที่ระบุตัวตนจากเด็กกลุ่มนี้โดยเจตนา</p></section>
+        <section class="sec"><h3>การเปลี่ยนแปลงนโยบาย</h3><p>ผู้พัฒนาอาจปรับปรุงนโยบายนี้เป็นครั้งคราว และจะประกาศฉบับใหม่ไว้ในหน้านี้</p></section>
+    </div>
 
-      <h3>4. ฟีเจอร์ "สิ่งที่ฉันถูกใจ"</h3>
-      <p>ข้อมูลรูปภาพที่คุณกดถูกใจจะถูกบันทึกไว้ในอุปกรณ์ของคุณเท่านั้น ไม่ถูกส่งไปยังเซิร์ฟเวอร์ และจะถูกลบเมื่อถอนการติดตั้งแอป</p>
-
-      <h3>5. ความปลอดภัย</h3>
-      <p>ผู้พัฒนาให้ความสำคัญกับความปลอดภัยของข้อมูล แต่ไม่สามารถรับประกันความปลอดภัยได้อย่างสมบูรณ์</p>
-
-      <h3>6. เด็ก</h3>
-      <p>แอปไม่ได้มุ่งเป้าไปที่ผู้ที่มีอายุต่ำกว่า 13 ปี และไม่เก็บข้อมูลที่ระบุตัวตนจากเด็กกลุ่มนี้โดยเจตนา</p>
-
-      <h3>7. การเปลี่ยนแปลงนโยบาย</h3>
-      <p>ผู้พัฒนาอาจปรับปรุงนโยบายนี้เป็นครั้งคราว และจะประกาศฉบับใหม่ไว้ในหน้านี้</p>
-
-      <h3>8. ติดต่อเรา</h3>
-      <p>หากมีคำถามหรือข้อเสนอแนะ ติดต่อได้ที่ <a href="mailto:info@soapyape.com">info@soapyape.com</a></p>
-    </section>
-
-    <hr>
-
-    <section id="en" lang="en">
-      <h2>Privacy Policy</h2>
-      <p class="meta">App: <strong>สวัสดีตามวัน</strong> · Developer: Hydrocotyle · Effective: 9 October 2025</p>
-
-      <h3>1. Information collected automatically</h3>
-      <p>The app uses Google AdMob, which may automatically collect device information (device model, operating system and advertising ID), usage data and IP address in order to show ads and estimate approximate location.</p>
-
-      <h3>2. Information you provide</h3>
-      <p>The app does not ask for or collect directly identifying information such as your name, email address or phone number.</p>
-
-      <h3>3. How information is used</h3>
-      <ul>
-        <li>To provide and maintain the app</li>
-        <li>To show ads</li>
-        <li>To analyze usage and improve the app</li>
+    <div id="en" class="langbox" lang="en" hidden>
+      <p class="meta">App <strong>สวัสดีตามวัน</strong> · Developer Hydrocotyle · Effective 9 October 2025</p>
+      <ul class="tldr" aria-label="Summary">
+        <li><b>No</b> name, email or phone number collected</li>
+        <li><b>Google AdMob</b> is used to show ads</li>
+        <li>Favorite images <b>stay on your device only</b></li>
       </ul>
+        <section class="sec"><h3>Information collected automatically</h3><p>The app uses Google AdMob, which may automatically collect device information (device model, operating system and advertising ID), usage data and IP address in order to show ads and estimate approximate location.</p></section>
+        <section class="sec"><h3>Information you provide</h3><p>The app does not ask for or collect directly identifying information such as your name, email address or phone number.</p></section>
+        <section class="sec"><h3>How information is used</h3><ul><li>To provide and maintain the app</li><li>To show ads</li><li>To analyze usage and improve the app</li></ul></section>
+        <section class="sec"><h3>“My Favorites” feature</h3><p>Images you mark as favorites are stored on your device only. They are not sent to any server and are deleted when you uninstall the app.</p></section>
+        <section class="sec"><h3>Security</h3><p>The developer takes data security seriously but cannot guarantee absolute security.</p></section>
+        <section class="sec"><h3>Children</h3><p>The app is not directed at children under 13, and does not knowingly collect personally identifying information from them.</p></section>
+        <section class="sec"><h3>Changes to this policy</h3><p>This policy may be updated from time to time. The latest version will be posted on this page.</p></section>
+    </div>
 
-      <h3>4. "My Favorites" feature</h3>
-      <p>Images you mark as favorites are stored on your device only. They are not sent to any server and are deleted when you uninstall the app.</p>
-
-      <h3>5. Security</h3>
-      <p>The developer takes data security seriously but cannot guarantee absolute security.</p>
-
-      <h3>6. Children</h3>
-      <p>The app is not directed at children under 13, and does not knowingly collect personally identifying information from them.</p>
-
-      <h3>7. Changes to this policy</h3>
-      <p>This policy may be updated from time to time. The latest version will be posted on this page.</p>
-
-      <h3>8. Contact</h3>
-      <p>Questions or suggestions: <a href="mailto:info@soapyape.com">info@soapyape.com</a></p>
-    </section>
+    <aside class="contact">
+      <img src="../assets/ui/icon-mail.png" alt="">
+      <div>
+        <p class="c-th" data-th="มีคำถามหรือข้อเสนอแนะ? ติดต่อเรา" data-en="Questions or suggestions? Contact us">มีคำถามหรือข้อเสนอแนะ? ติดต่อเรา</p>
+        <a class="mailbtn" href="mailto:info@soapyape.com">info@soapyape.com</a>
+      </div>
+    </aside>
   </article>
 </main>
 
+<footer class="footer">
+  <div class="f-bg strip" aria-hidden="true"><i class="l"></i><i class="c"></i><i class="r"></i></div>
+  <div class="f-bar">
+    <div class="f-links">
+      <a href="/privacy/"><img src="../assets/ui/icon-privacy.png" alt="">Privacy Policy</a>
+      <a href="mailto:info@soapyape.com"><img src="../assets/ui/icon-mail.png" alt="">Contact</a>
+    </div>
+  </div>
 </footer>
 
 <a id="to-top-float" class="to-top-float" href="#top" aria-label="Back to top" hidden><img src="../assets/ui/btn-top-float.png" alt=""></a>
 
+<script>
+(function(){
+  var boxes={th:document.getElementById('th'),en:document.getElementById('en')};
+  var btns=document.querySelectorAll('.lang button');
+  function set(l){
+    for(var k in boxes) boxes[k].hidden=(k!==l);
+    btns.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.lang===l));});
+    document.querySelectorAll('[data-th]').forEach(function(e){e.textContent=e.getAttribute('data-'+l);});
+    document.documentElement.lang=l;
+    try{localStorage.setItem('soapyape-lang',l)}catch(e){}
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.lang)});});
+  var start='th';
+  try{ var s=localStorage.getItem('soapyape-lang'); if(s) start=s; else if(!/^th/i.test(navigator.language||'')) start='en'; }catch(e){}
+  if(location.hash==='#en') start='en'; if(location.hash==='#th') start='th';
+  set(start);
+})();
+</script>
 <script>
 (function(){
   var btn=document.getElementById('to-top-float'); if(!btn) return;

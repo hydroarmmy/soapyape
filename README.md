@@ -5,6 +5,7 @@ Static pixel-art homepage for soapyape.com (Cloudflare Pages).
 ## Structure
 - `index.html`, `css/style.css` — homepage
 - `assets/ui/` — all pixel art pieces (27 pieces + generated `bar-top.png`)
+- `css/page.css` — styles for text pages (/privacy)
 - `_headers` — Cloudflare Pages headers
 
 ## How the layout stretches
