@@ -32,6 +32,6 @@ Build command: empty · Output directory: `/` · add custom domain `soapyape.com
 
 ## Privacy pages
 - `/privacy/` — website (keeps the old per-app section for apps already submitted with this URL)
-- `/apps/privacy/` — all mobile apps; one section per app with an anchor (`#hellomonday`, `#sawasdee-tamwan`; English: `-en` suffix)
+- `/apps/privacy/` — all mobile apps; one section per app with an anchor (`#hellomonday`, `#hello2days`, `#sawasdee-tamwan`; English: `-en` suffix)
 - `/games/privacy/` — all games
 - Never rename or delete a URL that a Play Store listing points to.
