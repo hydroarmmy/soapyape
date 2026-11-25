@@ -5,7 +5,7 @@ Static pixel-art homepage for soapyape.com (Cloudflare Pages).
 ## Structure
 - `index.html`, `css/style.css` — homepage
 - `assets/ui/` — all pixel art pieces (27 pieces + generated `bar-top.png`)
-- `css/page.css` — styles for text pages (/privacy)
+- `css/page.css` — styles for text pages (/privacy, /apps/privacy, /games/privacy)
 - `_headers` — Cloudflare Pages headers
 
 ## How the layout stretches
@@ -28,4 +28,10 @@ Build command: empty · Output directory: `/` · add custom domain `soapyape.com
 - Real Google Play URL in the "Top Game Mobile" card (`index.html`, search for TODO)
 - Social links (Discord / YouTube / itch.io)
 - Card thumbnails (`.thumb`, e.g. `assets/thumbs/cozy-farm.png`)
-- Pages: /games, /assets, /play, /apps  (/privacy done)
+- Pages: /games, /assets, /play, /apps  (/privacy, /apps/privacy, /games/privacy done)
+
+## Privacy pages
+- `/privacy/` — website (keeps the old per-app section for apps already submitted with this URL)
+- `/apps/privacy/` — all mobile apps; one section per app with an anchor (`#hellomonday`, `#sawasdee-tamwan`; English: `-en` suffix)
+- `/games/privacy/` — all games
+- Never rename or delete a URL that a Play Store listing points to.

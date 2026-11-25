@@ -10,6 +10,10 @@ window.SOAPYAPE_SEARCH = [
     desc: "Android app on Google Play", keywords: ["cat", "cute cat", "แมว", "สวัสดี", "hello", "android", "google play"] },
   { title: "Privacy Policy", type: "Page", url: "/privacy/", external: false,
     desc: "How SoapyApe handles information", keywords: ["privacy", "นโยบายความเป็นส่วนตัว", "ความเป็นส่วนตัว", "policy", "data"] },
+  { title: "App Privacy Policy", type: "Page", url: "/apps/privacy/", external: false,
+    desc: "Privacy policy for SoapyApe mobile apps", keywords: ["privacy", "apps", "นโยบายความเป็นส่วนตัว", "แอป", "admob", "hellomonday", "สวัสดีตอนเช้า"] },
+  { title: "Game Privacy Policy", type: "Page", url: "/games/privacy/", external: false,
+    desc: "Privacy policy for SoapyApe games", keywords: ["privacy", "games", "นโยบายความเป็นส่วนตัว", "เกม"] },
   { title: "Home", type: "Page", url: "/", external: false,
     desc: "SoapyApe home page", keywords: ["หน้าแรก", "soapyape", "main"] }
 ];
